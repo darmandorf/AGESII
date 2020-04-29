@@ -10823,7 +10823,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-148990
+  m_Name: pb_Mesh112794
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14460,6 +14460,7 @@ GameObject:
   - component: {fileID: 839854148}
   - component: {fileID: 839854147}
   - component: {fileID: 839854146}
+  - component: {fileID: 839854151}
   m_Layer: 0
   m_Name: AIRoomDoor
   m_TagString: Untagged
@@ -14775,12 +14776,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839854145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: -6.75}
+  m_LocalPosition: {x: -5, y: 0.02, z: -6.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &839854151
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839854145}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6e3f3b06ccd1ea49a14b305b249183b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &922266582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28638,7 +28658,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-161780
+  m_Name: pb_Mesh112810
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29474,7 +29494,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-153998
+  m_Name: pb_Mesh-285370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38518,7 +38538,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-145768
+  m_Name: pb_Mesh16310
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38844,3 +38864,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2bae9bbf26203d4d8b157fc8ba76cc6, type: 3}
+--- !u!1 &6978063788749064890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6978063787787025822, guid: e2bae9bbf26203d4d8b157fc8ba76cc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6978063788749064889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6978063788749064891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978063788749064890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e801f9bbe97a19148af82119395daf4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimations: {fileID: 0}
