@@ -224,9 +224,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.64
-  m_Range: 32.684956
-  m_SpotAngle: 55.98932
+  m_Intensity: 5.7
+  m_Range: 23.5
+  m_SpotAngle: 95
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 3741998485524393592}
   - component: {fileID: 3741998485524393595}
   - component: {fileID: 3741998485524393594}
+  - component: {fileID: 3257549454774666875}
   m_Layer: 0
   m_Name: CeilingLightFixture
   m_TagString: Untagged
@@ -556,3 +557,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!95 &3257549454774666875
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741998485524393589}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f78f72524a56529469bd3104e3718451, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
