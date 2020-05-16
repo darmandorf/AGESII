@@ -7,6 +7,7 @@ TagManager:
   - Fire
   - 0G
   - Wall
+  - PowerRing
   layers:
   - Default
   - TransparentFX

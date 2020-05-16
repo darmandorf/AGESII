@@ -1310,18 +1310,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Inventory Icon Images:
-
-    https://commons.wikimedia.org/wiki/File:Edit_Notepad_Icon.svg
-
-    https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_key.svg
-
-    https://commons.wikimedia.org/wiki/File:USB_icon.svg
-
-
-    Skybox:
-
-    https://assetstore.unity.com/packages/2d/textures-materials/sky/earth-planets-skyboxes-53752'
+  m_text: "Inventory Icon Images:\nhttps://commons.wikimedia.org/wiki/File:Edit_Notepad_Icon.svg\nhttps://commons.wikimedia.org/wiki/File:OOjs_UI_icon_key.svg\nhttps://commons.wikimedia.org/wiki/File:USB_icon.svg\n\nSkybox:\nhttps://assetstore.unity.com/packages/2d/textures-materials/sky/earth-planets-skyboxes-53752\n\nVoice
+    of Galton: \nSamuel Martin @ sammartin.info\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1390,12 +1380,12 @@ MonoBehaviour:
   m_margin: {x: 43.42798, y: 44.58954, z: 43.989258, w: 20.973541}
   m_textInfo:
     textComponent: {fileID: 1646175597}
-    characterCount: 300
+    characterCount: 351
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 43
+    spaceCount: 18
+    wordCount: 50
     linkCount: 0
-    lineCount: 7
+    lineCount: 10
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

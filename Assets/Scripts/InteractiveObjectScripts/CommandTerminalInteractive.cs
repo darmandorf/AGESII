@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CommandTerminalInteractive : InteractiveObject
 {
@@ -15,6 +16,9 @@ public class CommandTerminalInteractive : InteractiveObject
 
     [SerializeField]
     private AudioClip successSound;
+
+    [SerializeField]
+    private GameObject voiceLine;
 
     private bool hasData => PlayerInventory.InventoryObjects.Contains(coordinateData);
     private bool hasOverride => PlayerInventory.InventoryObjects.Contains(aiOverrideKey);
@@ -57,5 +61,11 @@ public class CommandTerminalInteractive : InteractiveObject
         displayText = "Warning! AI Override Enabled! Please disable override to continue.";
         audioPlayer.clip = errorSound;
         audioPlayer.Play();
+        voiceLine.SetActive(true);
+    }
+    private IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(0);
     }
 }

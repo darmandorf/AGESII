@@ -91,6 +91,4 @@ public class DoubleDoorInteractive : InteractiveObject
             numberOfCollisions--;
     }
 
-
-
 }
