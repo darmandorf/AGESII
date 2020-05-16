@@ -48,6 +48,7 @@ public class CommandTerminalInteractive : InteractiveObject
             audioPlayer.clip = successSound;
             PlayerInventory.InventoryObjects.Remove(aiOverrideKey);
             displayText = "Override Accepted. Station de-orbit in process...";
+            StartCoroutine("EndGame");
         }
         base.InteractWith();
     }
@@ -57,5 +58,15 @@ public class CommandTerminalInteractive : InteractiveObject
         displayText = "Warning! AI Override Enabled! Please disable override to continue.";
         audioPlayer.clip = errorSound;
         audioPlayer.Play();
+<<<<<<< Updated upstream
+=======
+        voiceLine.SetActive(true);
+    }
+    private IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(3);
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene(0);
+>>>>>>> Stashed changes
     }
 }
